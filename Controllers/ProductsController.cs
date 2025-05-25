@@ -12,7 +12,10 @@ namespace MySimpleApi.Controllers
         {
             var products = new[] {
 new Product { Id = 1, Name = "Apple" },
-new Product { Id = 2, Name = "Banana" }
+new Product { Id = 2, Name = "Banana" },
+new Product { Id = 1, Name = "Kiwi" },
+new Product { Id = 1, Name = "Pineapple" },
+new Product { Id = 1, Name = "Orange" }
 };
             return Ok(products);
         }
