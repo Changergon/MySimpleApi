@@ -111,7 +111,7 @@ sudo nano /etc/nginx/sites-available/default
 внутри меняем порт с 80 на 81 чтобы не было конфликта портов
 ```
 sudo ln -s /etc/nginx/sites-available/mysimpleapi /etc/nginx/sites-enabled/
-sudo nginx –t
+sudo nginx -t
 sudo systemctl restart nginx
 ```
 
