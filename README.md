@@ -37,7 +37,7 @@ dotnet --version
 **Шаг 2 (Создаем нужные директории)**
 ```
 sudo mkdir -p /var/www/app
-sudo chown ursus:ursus /var/www/app (необязательно)
+sudo chown dmitry:dmitry /var/www/app (необязательно)
 sudo chmod 755 /var/www/app или sudo chmod –R 755 /var/www
 mkdir -p ~/app
 ```
@@ -46,7 +46,7 @@ mkdir -p ~/app
 **Шаг 3 (Скачиваем приложение)**
 ```
 cd ~/app
-git clone https://github.com/BlackCoffeeCoding/MySimpleApi.git
+git clone https://github.com/Changergon/MySimpleApi.git
 cd MySimpleApi
 ```
 
