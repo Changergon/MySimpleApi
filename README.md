@@ -31,7 +31,7 @@ wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt update (обязательно, иначе следующая команда не отработает)
 sudo apt install -y dotnet-sdk-6.0 aspnetcore-runtime-6.0
-dotnet –version
+dotnet --version
 ```
 
 **Шаг 2 (Создаем нужные директории)**
